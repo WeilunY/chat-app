@@ -1,7 +1,12 @@
 
 .contact{
-   height: 60px;
-   width: 100%; 
+   background-color: aliceblue;
+   border-bottom: 1px solid gray;
+   height: 80px;
+   max-height: 80px;
+   width: 80%;
+   margin: auto;
+ 
 }
 
 .name{
@@ -26,9 +31,9 @@
 .fakeImage{
     color: white;
     background-color: darkgrey;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
     text-align: center;
 }
 

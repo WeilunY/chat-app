@@ -1,7 +1,8 @@
 export class Contact {
     FirstName: String;
     LastName: String;
-    Photo: String
-    Hour: number
-    Minute: number
+    Photo: String;
+    Hour: number;
+    Minute: number;
+    ChatHistory: String;
 }

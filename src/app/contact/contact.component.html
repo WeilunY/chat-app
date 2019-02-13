@@ -1,23 +1,25 @@
-<div class = "contact"> 
-  <div class="leftColumn">
-      <div class="fakeImage" >
-          {{contact.Photo}}
-        </div>
-  </div>
-  
-  <div class="midColumn">
+<li *ngFor="let contact of contacts">
+  <div class = "contact"> 
+    <div class="leftColumn">
+        <div class="fakeImage" >
+            {{contact.Photo}}
+          </div>
+    </div>
+    
+    <div class="midColumn">
       <p class = "name">
-          First Last
-        </p>
-      
-        <p class = "details">
-          abahsbcuashdahdo aw doiahdo awhdkjahskl haskdh 
-        </p>
+        {{contact.FirstName}} {{contact.LastName}}
+      </p>
+        
+      <p class = "details">
+        {{contact.ChatHistory}}
+      </p>
+    </div>
+    
+    <div class="rightColumn">
+      <p class = "time">
+        {{contact.Hour}}:{{contact.Minute}}
+      </p>
+    </div>
   </div>
-  
-  <div class="rightColumn">
-  <p class = "time">
-    12:00pm
-  </p>
-</div>
-</div>
+</li>
