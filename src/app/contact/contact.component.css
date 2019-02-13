@@ -1,0 +1,52 @@
+
+.contact{
+   height: 60px;
+   width: 100%; 
+}
+
+.name{
+    color: #778299;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.details{
+    color: #778299;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time{
+    color: #778299;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.fakeImage{
+    color: white;
+    background-color: darkgrey;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.leftColumn{
+    float: left;
+    width: 10%;
+    align-content: center;
+    
+}
+
+.midColumn{
+    float: left;
+    width: 80%;
+    
+}
+
+.rightColumn {
+    float: left;
+    width: 10%;
+    
+}
